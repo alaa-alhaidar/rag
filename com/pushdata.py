@@ -37,7 +37,7 @@ def extract_text_from_pdf(pdf_path):
 def generate_embedding(text):
     response = openai.Embedding.create(
         input=text,
-        model="text-embedding-ada-002"
+        model="text-embedding-3-small"
     )
     return response['data'][0]['embedding']
 
