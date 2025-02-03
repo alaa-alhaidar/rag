@@ -1,12 +1,11 @@
 import os
 from openai import OpenAI
-
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 from pinecone import Pinecone, ServerlessSpec
 from PyPDF2 import PdfReader
 from dotenv import load_dotenv
-load_dotenv()
 
+load_dotenv()
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 # Set up OpenAI API key
   # Ensure your environment variable is set
 
