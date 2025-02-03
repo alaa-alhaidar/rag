@@ -1,0 +1,11 @@
+pinecone-client
+tiktoken
+numpy
+pandas
+scikit-learn
+faiss-cpu
+langchain
+fastapi
+uvicorn
+python-dotenv
+openai
