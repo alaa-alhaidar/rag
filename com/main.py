@@ -7,7 +7,7 @@ import openai
 
 
 if __name__ == '__main__':
-    print('Hello, OpenAI!')
+    
     load_dotenv()
     # Access environment variables
     SECRET_KEY = os.getenv("deepseekAPI")
